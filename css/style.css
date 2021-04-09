@@ -1,3 +1,21 @@
+/*
+0 - 600PX:       PHONE
+600 - 900PX:     TABLET PORTRAIT
+900 - 1200PX:    TABLET LANDSCAPE
+[1200 - 1800]:   IS WHERE OUR NORMAL STYLE APPLY
+1800 + :         BIG DESKTOP
+
+$breakpoint argumentts choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+use em for media query in some browser rem won't work with media query
+
+1em=16px
+
+*/
 @keyframes moveInLeft {
   0% {
     opacity: 0;
@@ -36,6 +54,15 @@
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
