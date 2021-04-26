@@ -1,6 +1,8 @@
 This project is part of a lecture from Udemy "Advanced CSS and Sass: Flexbox, Grid, Animations" Created by Jonas Schmedtmann.  
 [Link](https://www.udemy.com/course/advanced-css-and-sass/)
 
+[Live project](https://mattyimry.github.io/UdemyCssSass_Project1/)
+
 Natours Project.
 
 Topics :  
